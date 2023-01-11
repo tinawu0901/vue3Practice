@@ -1,9 +1,23 @@
 import { createStore } from "vuex";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
+  state: {
+    // userlist:[]
+  },
+  getters: {
+    // getUserList(state){
+    //   return state.userlist
+    // }
+  },
+  mutations: {
+    // setUserList(state, userlist) {
+    //   state.userlist = userlist;
+    // }
+  },
+  actions: {
+    // addUserList(context, userlist) {
+    //   context.commit('setUserList', userlist);
+    // }
+  },
   modules: {},
 });
